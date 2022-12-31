@@ -53,4 +53,8 @@ public class Student implements Serializable {
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
+	
+	public int add(int a,int b) {
+		return a+b;
+	}
 }
